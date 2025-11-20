@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff;
+    color: #333;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #FF4E8A;
+    color: white;
+}
+
+.header.small {
+    padding: 25px 20px;
+}
+
+.title {
+    font-size: 38px;
+    margin: 0;
+    font-weight: 800;
+}
+
+.subtitle {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.logo-container {
+    margin: 20px auto;
+    width: 180px;
+    height: 180px;
+    background: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.logo-container.small {
+    width: 130px;
+    height: 130px;
+}
+
+.app-logo {
+    width: 80%;
+    height: auto;
+}
+
+/* Sections */
+.section {
+    padding: 25px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.section h2 {
+    color: #FF4E8A;
+    margin-top: 25px;
+}
+
+.card {
+    background: #ffe1ec;
+    padding: 20px;
+    margin: 25px auto;
+    border-radius: 20px;
+    max-width: 900px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #FF4E8A;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+.downloads {
+    text-align: center;
+    margin: 40px 0;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #FF4E8A;
+    color: white;
+    margin-top: 40px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+.license {
+    background: #ffe1ec;
+    padding: 10px;
+    border-radius: 10px;
+}
